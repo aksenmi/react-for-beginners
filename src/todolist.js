@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function App() {
+function Todolist() {
   const [toDo, setToDo] = useState("");
   const [toDos, setToDos] = useState([]);
   const onChange = (event) => setToDo(event.target.value);
@@ -35,4 +35,8 @@ function App() {
   );
 }
 
-export default App;
+export default Todolist;
+
+// 1. 파일명 바꾸기
+// 2. 함수명 바꾸기
+// 3. export default 바꾸기
